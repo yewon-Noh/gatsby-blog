@@ -1,0 +1,22 @@
+{
+  "intro": "안녕하세요",
+  "heroPhoto": {
+    "src": "../../images/lego-dummy.png",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "개발자 노예원입니다.",
+  "subtitle": {
+    "prefix": "",
+    "highlight": "",
+    "suffix": ""
+  },
+  "description": "저의 블로그에 오신걸 환영합니다.",
+  "socialProfiles": {
+    "from": ["Github", "LinkedIn", "Mail"],
+    "showIcons": true
+  }
+}

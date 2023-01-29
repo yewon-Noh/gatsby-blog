@@ -1,0 +1,36 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://yewon-Noh.github.io/",
+    "title": "yewonlog",
+    "titleTemplate": "yewonlog",
+    "description": "yewon-Noh's Blog",
+    "author": "yewon-Noh",
+    "avatar": "",
+    "bio": "",
+    "social": {
+      "github": "https://github.com/yewon-Noh",
+      "medium": "",
+      "linkedin": "https://www.linkedin.com/in/yewon-Noh/",
+      "mail": "mailto:yewo2nn16@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "yewonlog" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Blog", "url": "/blog" },
+        { "label": "Github", "url": "https://github.com/yewon-Noh" }
+      ],
+      "footer": [
+        
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}
