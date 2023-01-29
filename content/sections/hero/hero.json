@@ -14,9 +14,9 @@
     "highlight": "",
     "suffix": ""
   },
-  "description": "저의 블로그에 오신걸 환영합니다.",
+  "description": "이전 블로그는 https://velog.io/@yewo2nn16 입니다",
   "socialProfiles": {
     "from": ["Github", "LinkedIn", "Mail"],
-    "showIcons": true
+    "showIcons": false
   }
 }
