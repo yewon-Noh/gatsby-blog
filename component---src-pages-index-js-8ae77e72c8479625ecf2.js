@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_portfolio_minimal_theme=self.webpackChunkgatsby_starter_portfolio_minimal_theme||[]).push([[678],{6558:function(e,t,n){n.r(t),n.d(t,{default:function(){return l}});var r=n(7294),a=n(7170);function l(){return r.createElement(r.Fragment,null,r.createElement(a.pQ,{title:"yewonlog"}),r.createElement(a.T3,{useSplashScreenAnimation:!0},r.createElement(a.DH,{sectionId:"hero"})))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-8ae77e72c8479625ecf2.js.map

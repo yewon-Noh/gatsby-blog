@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://yewon-noh.github.io/sitemap-index.xml
+Host: https://yewon-noh.github.io
