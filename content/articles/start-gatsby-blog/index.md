@@ -109,7 +109,7 @@ npm run deploy
 
 GitHub의 Repository 설정에서 배포 할 Branch(여기서는 gh-pages)를 선택한다.
 
-![image](<image(2).png>)
+![image](image.png)
 
 ---
 
