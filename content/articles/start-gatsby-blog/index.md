@@ -111,6 +111,44 @@ GitHub의 Repository 설정에서 배포 할 Branch(여기서는 gh-pages)를 �
 
 ![image](image.png)
 
+# 5. Google Analytics 연결하여 방문자 수 구하기
+
+블로그를 시작하면 방문자 수를 확인하고 싶다.
+
+이럴땐 구글에서 제공하는 Google Analytics를 이용하여 방문자 수를 구할 수 있다.
+
+Gatsby에서 제공하는 플러그인 gatsby-plugin-google-gtag 을 설치해준다.
+
+> ⚠️ gatsby-plugin-google-analytics도 있지만 더 이상 지원하지 않는다.
+
+```
+npm install gatsby-plugin-google-gtag
+```
+
+그 다음 gatsby-config.js 파일에 설정을 추가해준다.
+
+```javascript
+module.exports = {
+  plugins: [
+    ...{
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-XXXXXXXXX", // Google Analytics / GA
+        ],
+      },
+    },
+  ],
+};
+```
+
+여기서 GA-TRACKING_ID은 Google Analytics에서 설정한 스트림 측정 ID 값이다.
+
+![image](image2.png)
+
+여기까지 설정이 끝나면 Google Analytics 홈에서 결과를 확인할 수 있다.
+
 ---
 
 **참고**
